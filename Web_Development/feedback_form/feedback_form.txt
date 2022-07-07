@@ -1,0 +1,90 @@
+      var feedback = document.getElementById("mytest").value;
+            var suggestion = document.getElementById("sugges").value;
+            var d = new Date();
+            //alert(fname.length);
+            if (fname == "" ) {
+                alert("Please inpur your first name. ");
+            }
+            else if (lastname == "")
+            {
+                alert("Please inpur your last name. ");
+            }
+            else if (fname.length > 40 || midmame.length > 40 || lastname.length > 40)
+            {
+                alert("Please inpur your name in 40 char ");
+            }
+            else{
+                if (midmame.trim() == "")
+                    name = Gender + " " + fname.trim() + " " + lastname.trim();
+                else {
+                    name = Gender + " " + fname.trim() + " " + midmame.trim() + " " + lastname.trim()
+                    }
+            } 
+            feedback += "\n" + "Name: " + name + "\n" + "Suggestion: " + suggestion + "\n" + d + "\n";
+            document.getElementById("mytest").value = feedback;
+           
+
+        }
+    </script>
+</head>
+<body background ="https://lh3.googleusercontent.com/opd1Ir51zRA0aqR3zONRUflBOgq-jaSRBwjQZCy3dudbHpKMI6-hwnpGplHFC14_RUgSzlUQugUQmb_E4Ev9xVWp1xe3fu2Ld1fz15EuHmHdzFrJHO29a0bpbFWwHfTkvmj4hhKdPr4=w2400">
+<div class="centre">
+<div class="header-img">
+
+  <label style="float:left;font-size:30px;color:white"> Feedback </label>
+  <label style="float:right;font-size:30px;color:white"> Your Thoughts </label>
+</div>
+
+<div class="content">
+<section class="s">
+  <div style="background-color:tomato;width:50%;float:left;height:300px">
+ <form class="sec1" action="feedback.html" onsubmit="return false">
+ 
+  <div class="inputBox MyLabel" style="dislay:flex;margin-top:12px;">
+  <div style="width:200px;"><label for="fname">First name</label></div>
+     <div style="width:200px;"><input type ="text" id="fname" name="fname" required></div>
+	 </div>
+     
+  <div class="inputBox MyLabel" style="dislay:flex;margin-top:12px;">
+	 <div style="width:200px;"><label for="mname">Middle name</label></div>
+	 <div style="width:200px;"><input type="text"id="mname" name="mname"></div>
+	 </div>
+     
+  <div class="inputBox MyLabel" style="dislay:flex;margin-top:12px;">
+	   <div style="width:200px;"><label for="lname">last name</label></div>
+	   <div style="width:200px;"><input type="text" id="lname" name="lname" required></div>
+	   </div>
+       
+  <div class="inputBox MyLabel" style="dislay:flex;margin-top:12px;">
+	   <div style="width:200px;"><label for="sugg">Suggestion</label></div>
+	   <div style="width:200px;"><input type="text"id="sugges" name="sugg" required></div>
+	   </div>
+       
+  <div class="MyLabel" style="dislay:flex;margin-top:15px;">
+	    <div style="width:200px"><label for="fname">Gender</label></div>
+		<div style="width:200px;">
+		   <input type="radio" id="male" name="gender" value="Mr" required >
+		   <label for="male" >Male</label>
+		   <input type="radio" id="female" name="gender" value="Ms" required>
+		   <label for="female" > Female</label>
+		   </div>
+		   </div>
+<input type="submit" value="+" style=" margin: none;margin-left: 0;align=right;width:50px;" onclick="input()">
+          
+		  <input type="submit" value="-" style="width:50px;" onclick="Clear()">
+		  </div>
+		  </form>
+		  </section>
+  <section>
+  <div style="background-color:orange;width:50%;float:left;height:300px">
+  <textarea class="sec1" style="background-color:orange;width:91%;float:left;height:277px"type="text" id="mytest"></textarea>
+  </section>
+
+<footer>
+  <p>© jharianeetu<br>
+  <a href="mailto:hege@example.com">jharianeetu</a></p>
+</footer>
+
+</body>
+
+</html>

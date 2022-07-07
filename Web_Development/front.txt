@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head></head>
+<style>
+.content {
+
+  max-width: 800px;
+  margin: auto;
+  background: url('https://lh3.googleusercontent.com/7dcqHTGyrKTcp6FjL0yAeGhlGpHowkNsro4zDSgYiNPbEMi_3tT5iiZpqZ6ErO_qRdn3j3tj4zFRQGZFMK7Cp0OVw8F5Pv-suJ1S8QkwpYy6yWTutVM3HQekSzrXJTZSEhMxTmLy_RU=w2400');
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background:#DDA0DD;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 80px;
+  background-color: DarkSalmon;
+  color: white;
+}
+.button {
+  background-color: #8B008B;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: none;
+  cursor: pointer;
+  
+  
+}
+.button1 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: none;
+  cursor: pointer;
+  float:centre;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: DarkSalmon;
+  color: white;
+  background: url('https://lh3.googleusercontent.com/V02y3JlbGDGfvflyayVIQ4zRy71KOJk7YYmlAhvHtCwUqHgR9xz_ydNe9h1ghH3EUP0fGsTTGOdJzOf-oXfTCurI-8k4WHi6DUh0lq22LYTUmqQPUlxHILaNHAXKHcgpZFonKquHOtc=w2400');
+}
+
+body {
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<body background ="https://lh3.googleusercontent.com/XCpcTXcBDTs621rBLpRqx0qZQczKwwcpCm9HjQXgTrzCVPZALrk5I98fb--8YxoO0SL13yD__u_IbESnZXrtqDwDF0XPJaI5bmKTuLwXMAYH1XPSWE7pbsHXYapMHTvqOYnVHSlkqI8=w2400">
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px;
+  width: 190px;
+  height: 240px;
+  float: left;
+  margin: 0px; 
+  
+  
+}
+/* Style the body */
+body {
+  font-family: arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header-img {
+  padding: 10px;
+  text-align: center;
+  background: Black;
+  color: White;
+  font-size: 20px;
+ background: url('https://lh3.googleusercontent.com/jKySP6ceTVChwTIB3IZ_G70SAufF2cji61TsWFl23J9qkQ5QtX8JaUZ1fQAUq7cIu32NOr443VMp5oyVLs9lR9l-1nPSS0kkkihpO_lYaIqA-gnWQdN-tr_W764ZapXgkhSWSIcmJ80=w2400');
+}
+.footer {
+  padding: 80px;
+  text-align: center;
+  background: #FFA07A;
+  color: Brown;
+  font-size: 20px;
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #483D8B;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #800000;
+  color: white;
+}
+
+.pera {
+  padding: 10px;
+  text-align: center;
+  background: Black;
+  color: White;
+  font-size: 20px;
+ 
+/* Page Content */
+.content {padding:20px;}
+</style>
+</head>
+<body>
+<div class="content">
+<div class="header-img">
+  <h1>Web Development Work</h1>
+  
+</div>
+
+<div class="topnav">
+  <a class="active" href="https://jharianeetu.github.io/updated-about-me/">About Me</a>
+  <a href="https://jharianeetu.github.io/updated-my-fav.-books/">My Favorite Books</a>
+  <a href="https://jharianeetu.github.io/updated-feedback-/">Feedback </a>
+  
+</div
+
+<p>
+
+<h2>About Me(Lab-1)</h2><br>
+This web page is about introduction to myself. First there is little introduction and then about my academic career,qualification,hobbies and MCA subjects. <br>
+This web page is consits of
+Adding header
+Inserting image to html page
+Adding Hyperlink
+Adding footers<br>
+Use Of html tags- div,h,img,ul,p,li,ol,href,header,footer,body
+
+<h2>My Favorite books(Lab-2)</h2><br>
+Introduction-This web page shows 5 books of my interest  - The Alchemist, An Autobiography, by  mahatma ghandhi, The Immortals of Meluha, The Secret of the Nagas, The Secret. There is also a button next to each book so by clicking it we can read the book.<br>
+
+
+Use - CSS,HTML,div,h,img,ul,p,li,ol,href,header,footer,body
+<h2>Feedback Page(Lab-3)</h2><br>
+Introduction-Feedback page contains a feedback form where we can add our feedbacks, with name. By clicking plus button we can view our feedback to text area on the right side.<br>
+
+Use - CSS,HTML,java script,div,h,img,ul,p,li,ol,href,header,footer,body
+</p>
+<footer>
+  <p><p>©  Desinged & Developed by:Neetu Jharia<br>
+  <a href="mailto:hege@example.com">jharianeetu</a></p>
+</footer>
+
+</body>
+</html>
